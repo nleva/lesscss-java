@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.send-to.less</groupId>
     <artifactId>lesscss</artifactId>
-    <version>1.7.0.1.1</version>
+    <version>1.7.0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Fork of official LESS CSS Compiler for Java</name>
     <description>Fork of official LESS CSS Compiler for Java with codepen.io imports</description>
