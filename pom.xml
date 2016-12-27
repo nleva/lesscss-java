@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.lesscss</groupId>
+    <groupId>ru.send-to.less</groupId>
     <artifactId>lesscss</artifactId>
-    <version>1.7.0.1.2-SNAPSHOT</version>
+    <version>1.7.0.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Official LESS CSS Compiler for Java</name>
-    <description>Official LESS CSS Compiler for Java</description>
-    <url>http://github.com/marceloverdijk/lesscss-java</url>
+    <name>Fork of official LESS CSS Compiler for Java</name>
+    <description>Fork of official LESS CSS Compiler for Java with codepen.io imports</description>
+    <url>http://github.com/nleva/lesscss-java</url>
     
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -242,15 +242,10 @@
         </developer>
     </developers>
     
-    <issueManagement>
-        <system>GitHub</system>
-        <url>http://github.com/marceloverdijk/lesscss-java/issues</url>
-    </issueManagement>
-    
     <scm>
-        <connection>scm:git:git@github.com:marceloverdijk/lesscss-java.git</connection>
-        <developerConnection>scm:git:git@github.com:marceloverdijk/lesscss-java.git</developerConnection>
-        <url>http://github.com/marceloverdijk/lesscss-java</url>
+        <connection>scm:git:git@github.com:nleva/lesscss-java.git</connection>
+        <developerConnection>scm:git:git@github.com:nleva/lesscss-java.git</developerConnection>
+        <url>http://github.com/nleva/lesscss-java</url>
     </scm>
     
 </project>
