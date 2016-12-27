@@ -41,7 +41,11 @@ public class HttpResource implements Resource {
     }
 
     public InputStream getInputStream() throws IOException {
-        return url.toURL().openStream();
+    	
+        URL u = url.toURL();
+        URLConnection uc = u.openConnection();
+		uc.addRequestProperty("User-Agent", "Java");
+		return uc.getInputStream();
     }
 
     public Resource createRelative(String relativeResourcePath) throws IOException {
