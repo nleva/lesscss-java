@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.send-to.less</groupId>
     <artifactId>lesscss</artifactId>
-    <version>1.7.0.1.1-SNAPSHOT</version>
+    <version>1.7.0.1.1</version>
     <packaging>jar</packaging>
     <name>Fork of official LESS CSS Compiler for Java</name>
     <description>Fork of official LESS CSS Compiler for Java with codepen.io imports</description>
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.10</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -40,20 +40,20 @@
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>  
-            <version>1.9.0</version> 
+            <artifactId>mockito-all</artifactId>  
+            <version>1.10.19</version> 
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-module-junit4</artifactId>
-            <version>1.4.11</version>
+            <version>1.6.6</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-api-mockito</artifactId>
-            <version>1.4.11</version>
+            <version>1.6.6</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -86,12 +86,12 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.17</version>
+				<version>2.19.1</version>
 				<dependencies>
 					<dependency>
 						<groupId>org.apache.maven.surefire</groupId>
 						<artifactId>surefire-junit47</artifactId>
-						<version>2.17</version>
+						<version>2.19.1</version>
 					</dependency>
 				</dependencies>
 			</plugin>
