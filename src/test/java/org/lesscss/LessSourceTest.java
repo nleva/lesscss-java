@@ -74,7 +74,9 @@ public class LessSourceTest {
 //    @Test
     public void testHttpResourceCaching() throws Exception {
     	HttpResource resource = new HttpResource("http://codepen.io/OldMan/pen/QGooEg.less");
+    	
     	System.out.println(resource.getInputStream().available());
+    	assertEquals(true, true);
     }
     
     @Test
