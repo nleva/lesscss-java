@@ -88,7 +88,7 @@ public class HttpResource implements Resource {
 	private void swapToFile(File file, HttpURLConnection uc, String etag)
 			throws IOException, FileNotFoundException {
 		uc.addRequestProperty("If-None-Match", etag);
-		if (uc.getResponseCode() == 304) {
+		if (uc.getResponseCode() != 304) {
 			return;
 		}
 		String newEtag = uc.getHeaderField("ETag");
